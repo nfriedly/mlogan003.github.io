@@ -1,0 +1,425 @@
+@charset "utf-8";
+
+	
+	
+		body {
+		
+		background-image: url("../Images/MLogan_WebsiteBackground.jpg");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center; 
+		background-size: 1366px 768px;
+		font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+		font-size: 24px;
+		font-style: normal;
+		font-variant: normal;
+		font-weight: 500;
+		line-height: 26.4px;
+}
+	
+
+
+
+
+/*Heading Styling*/	
+
+	
+		h1   {
+
+		color: white;
+		font-size: 312.5%;
+		font-weight: bold;
+}
+	
+	
+		h2   {
+		
+		font-size: 40px;
+		line-height: 97%;
+}
+	
+	
+		h3   {
+		
+		font-size: 28px;
+}
+	
+	
+	
+	
+	
+/*Line Styling*/
+
+	
+		
+		hr   {
+			
+		background-color: gray;
+		color: gray;
+		width: 80%;
+		size: 10px;
+}
+	
+	
+
+
+
+/*Video Styling*/
+
+
+		
+		video {
+		
+		padding: 7px;
+		background-color: black;
+}
+	
+	
+	
+	
+	
+	
+/*Other Styling (Class)*/
+		
+				
+				
+		div.main_content   {
+		
+		display: block;
+		text-decoration:none;
+		background-color: white;
+		margin-left: 20%;
+		width: 62%;
+		padding: 40px 40px 40px 60px;
+		color: black;
+		margin-top: -6%;
+}
+
+
+
+		.banner  {
+			
+		height: 10%;
+		padding-top: 2%;
+		padding-bottom: 0.6%;
+}		
+			
+			
+	
+		
+		.links  {
+		
+		text-decoration: none;
+		color: gray;
+}
+
+
+
+
+		.caption  {
+			
+		color: gray;
+		font-size: 15px;
+		font-style: italic;
+		text-align: center;
+		
+}
+	
+
+
+		.right_caption  {
+			
+		color: gray;
+		font-size: 15px;
+		font-style: italic;
+		float: right;
+		
+}
+
+
+
+		.border_image   {
+		
+		border-style: solid;
+		border-width: 5px;
+		border-color: black;
+		border-radius: 25%;
+		padding: 15px;
+}
+
+
+
+		div.main_content_button {
+		display:inline-block;
+		list-style-type: none;
+		padding: 17px 2px;
+		width: 25%;
+		background-color: gray;
+		text-align: center;
+		
+}	
+	
+	
+		div.main_content_button a {
+		
+		text-decoration: none;
+		color: black;
+		font-size: 28px;
+
+}
+
+		div.main_content_button:hover  {
+			
+		background-color: #b9c7c9;
+}
+
+
+		div.main_content_button2 {
+		display:inline-block;
+		list-style-type: none;
+		padding: 17px 2px;
+		width: 32%;
+		background-color: gray;
+		text-align: center;
+		
+}	
+	
+	
+		div.main_content_button2 a {
+		
+		text-decoration: none;
+		color: black;
+		font-size: 40px;
+
+}
+
+		div.main_content_button2:hover  {
+			
+		background-color: #001230;
+		padding: 17px 2px;
+}
+
+
+
+		div.main_content_button2 a:hover {
+		
+		color: gray;
+}
+
+
+
+		.float_right   {
+			
+		float: right;
+}
+		
+		
+		
+		.float_left   {
+		
+		float: left;
+}
+
+		
+		
+		.stop_float   {
+		
+		clear: both;
+}
+
+
+		
+		.border  {
+		
+		border-style: outset;
+		border-width: 7px;
+		padding: 10px;
+}
+		
+		.link_border  {
+		
+		border-style: outset;
+		border-width: 10px;
+		padding: 1px;
+		color: #DCDCDC;
+}
+		
+		
+			
+		.center   {
+		
+		text-align: center;
+}
+
+
+
+
+		.slideshow-container   {
+		
+		width: 1200px;
+		margin-left: -20%;
+}	
+
+
+		
+/*Other Styling (Id)*/
+
+				
+		#float  {
+			
+		float: right;
+		padding: 15px;
+}
+	
+	
+	
+		#list    {
+		
+		list-style-type: circle;
+}
+
+
+	
+		#border  {
+		
+		border-style: outset;
+		border-width: 7px;
+		border-color: lightgray;
+}
+
+
+/*Table Styling*/
+
+		
+		
+		table  {
+			
+		border-collapse: collapse;
+		width: 75%;
+		clear: both;
+		text-align: left;
+		font-size: 15px;
+		color: black;
+}
+
+
+
+
+		td,th {
+			
+		border-style: solid;
+		border-width: 2.9px;
+		border-color: black;
+		padding: 3px;
+		padding-left: 5px;
+		background-color: white;
+}
+
+
+
+
+		th {    
+		
+		
+		text-align: center;
+		font-size: 20px;
+		padding: 7px;
+		background-color: #bbbbbb;
+}	
+		
+		
+		
+		caption {
+				
+		color: black;
+		font-size: 38px;
+		font-weight: bold;
+		margin-bottom: 30px;
+}
+
+
+
+
+
+/* Navigational Styling */
+
+
+		.navigation ul   {
+		
+		list-style-type: none;
+		margin-left: 2%;
+		padding: 0;
+		width: 14.64129%;
+		background-color: #141f1f;
+		margin-top:-3.8%;
+		position: fixed;
+
+}
+	
+	
+	
+		.navigation a   {
+	
+		display: block;
+		padding: 8px 16px;
+		text-decoration: none;
+		color: gray;
+}
+
+	
+
+		.navigation a:hover {
+		
+		background-color: white;
+		color: gray;
+	
+}
+	
+	
+		.dropdown a {
+	
+		display: block;
+		padding: 8px 16px;
+		background-color: gray;
+		text-decoration: none;
+		color: white;
+		position: relative;
+}
+
+
+
+		.ProjectsButtons  {
+			
+		margin-right:auto;
+		margin-left:auto;
+}
+
+
+
+		li ul   {
+			
+		display: none; 
+		top: 58.8%;
+		left: 15.2%;
+		margin: 0;
+		padding: 0;
+		width: 150px;
+		position: absolute;
+		background-size: 100%;
+	
+}
+
+
+
+		
+		li:hover > ul {
+			
+		display: inline;
+}
+
+
+
+
+
+
+		
